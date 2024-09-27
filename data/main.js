@@ -30,7 +30,7 @@ app.controller('converter',function($scope){
   $scope.copy = function(copyTxt) {
     navigator.clipboard.writeText(copyTxt)
       .then(() => {
-        alert(copyTxt);
+        alert('Success Copy : ',copyTxt);
       });
   };
   $scope.shareTxt = function(txt) {
