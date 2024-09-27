@@ -43,9 +43,6 @@
         font-size: 14px;
         font-family: "Ubuntu", sans-serif;
     }
-    #icon{
-      font-size: 30px;
-    }
     ion-icon {
       font-size: 23px;
     }
@@ -71,7 +68,7 @@
         <textarea ng-model="input" rows="5" placeholder="Typing....Your Text or Binary Code!" class="mb-3 p-2 form-control bg-dark text-light shadow-sm border border-1 border-warning" ng-change="convert(input)" ></textarea>
         <div class="text-warning text-center mb-3">
           <p>Change To Result ( Automatic )</p>
-          <i class="fa-solid fa-retweet" id="icon"></i>
+          <ion-icon name="logo-android" size="large"></ion-icon>
         </div>
         <div class="text-start text-warning px-2 my-1" id="btn">
           <ion-icon name="copy-outline" ng-click="copy(result)"></ion-icon>
